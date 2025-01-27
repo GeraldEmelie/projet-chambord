@@ -8,6 +8,10 @@ Ce projet consiste à développer un **site vitrine** pour un hôtel 5 étoiles 
 👉 Découvrez une courte vidéo de présentation du site :  
 [🎥 Vidéo Loom - Hôtel de luxe à Paris | Le Chambord](https://www.loom.com/share/1ae57bf2bcce40a9a2d2e8689784da2f?sid=fd3f2dff-d4f3-4005-a52d-e679328f4dd0)
 
+## Démo en ligne
+👉 Découvrez le site ici : [Lien GitHub Pages](https://geraldemelie.github.io/projet-chambord).
+
+
 ## Objectifs du projet
 - Concevoir un site web complet en **HTML**, **CSS** et **JavaScript**.
 - Respecter les normes **WCAG** pour l'accessibilité.
