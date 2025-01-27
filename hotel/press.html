@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hôtel de luxe à Paris | Le Chambord | Presse</title>
+        <link rel="icon" type="image/x-icon" href="../img/favicon-hotel.png">
+        <!-- cdn bodoni font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        <!-- cdn monserrat font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- cdn roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="../css/style.css">
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+    
+    </head>
+<body>
+    <header>
+        <!-- scroll top -->
+        <button id="scrolltop" class="btn btn-dark position-fixed"><i class="fas fa-arrow-up"></i></button>
+        <!-- First navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo-hotel.png" alt="Logo Hôtel Chambord" >
+        </a>
+        <!-- Toggler pour le menu burger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar" aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="firstNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../reservation.html#reservation">Votre Réservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../hotel/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../img/language_484633.png" alt="Langue" width="20" height="20" class="d-inline-block align-text-top"> Français
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="#">Anglais</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline d-flex my-2 my-lg-0">
+                <input class="form-control me-2" type="search" placeholder="Que recherchez-vous ?" aria-label="Search">
+                <button class="btn btn-dark button py-1 px-2" type="submit">Chercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Second navbar -->
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <!-- Toggler pour le menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNavbar" aria-controls="secondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="secondNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/about.html">L'Hôtel</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../chambres.html">Les Chambres</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../restaurant.html">Le Restaurant</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../spa.html">Le Spa</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/event.html">Evènements</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../actualités.html">Actualités</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plus
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                            <li><a class="dropdown-item" href="../hotel/contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="../avis.html">Avis</a></li>
+                            <li><a class="dropdown-item" href="../hotel/contact.html#newsletter">Newsletter</a></li>
+                            <li><a class="dropdown-item" href="../hotel/acces.html">Accès</a></li>
+                            <li><a class="dropdown-item" href="../hotel/press.html">Presse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+</header>
+
+<section>
+    <div class="container">
+        <div class="row gy-4 align-items-center">
+            <div>
+                <h1 class="mb-5 mt-4 text-center">Espace Presse</h1>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-6 text-center">
+                            <h5>Directrice de la Communication et des Relations Publiques</h5>
+                            <h3 class="mb-2">Clara Morel</h3>
+                            <p class="mb-2">Email : 
+                                <a href="" class="text-decoration-none text-dark">clara.morel@lechambord.rien</a>
+                            </p>
+                            <p>Téléphone : 
+                                <a href="" class="text-decoration-none text-dark">+33 (0)1 00 00 00 00</a>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row gy-2 align-items-center">
+            <div class="col-12 col-md-5">
+                <h2 class="mb-3">Le Chambord Réinvente le Bien-Être avec un Nouveau Soin Signature au Spa</h2>
+                <h3 class="mb-4 text-muted ">Janvier 2025</h3>
+                <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                   <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                </a>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <img src="../img/press-spa.jpg" alt="femme au spa" class="img-fluid rounded shadow" >
+            </div>
+        </div>
+        
+
+        <hr class="my-5 mx-auto border-2 border-dark" >
+
+        <div class="row gy-2 align-items-center">
+            <div class="col-12 col-md-6 text-center">
+                <img src="../img/press-art.jpg" alt="affiche art contemporain" class="img-fluid rounded shadow" >
+            </div>
+           
+            <div class="col-12 col-md-5">
+                <h2 class="mb-2" >Une Collaboration Artistique Unique : Le Chambord Accueille une Exposition d’Art Contemporain</h2>
+                <h3 class="mb-4 text-muted ">Janvier 2025</h3>
+                <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                   <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                </a>
+            </div>
+        </div>
+            <hr class="my-5 mx-auto border-2 border-dark" >
+        <div class="row gy-2 align-items-center">
+                <div class="col-12 col-md-5">
+                    <h2 class="mb-2" >Célébrez la Gastronomie Française : Le Chef du Chambord Lance un Menu Éphémère</h2>
+                    <h3 class="mb-4 text-muted ">Janvier 2025</h3>
+                    <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                    <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="../img/press-chef-cuisine.jpg" alt="le chef de cuisine entrain de cuisiner" class="img-fluid rounded shadow" >
+                </div>
+        </div>
+            <hr class="my-5 mx-auto border-2 border-dark" >
+        <div class="row gy-2 align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                    <img src="../img/press-noel.jpg" alt="arbre de noel" class="img-fluid rounded shadow" >
+                </div>
+               
+                <div class="col-12 col-md-5">
+                    <h2 class="mb-2" >Noël au Chambord : Une Expérience Féérique au Cœur de Paris</h2>
+                    <h3 class="mb-4 text-muted ">Décembre 2024</h3>
+                    <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                   <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                    </a>
+                </div>
+        </div>
+                <hr class="my-5 mx-auto border-2 border-dark" >
+                <div class="row gy-2 align-items-center">
+                    <div class="col-12 col-md-5">
+                        <h2 class="mb-2" >Les Soirées Jazz du Chambord : Une Immersion Musicale Inoubliable</h2>
+                        <h3 class="mb-4 text-muted ">Décembre 2024</h3>
+                        <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                        <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <img src="../img/press-jazz.jpg" alt="poto de joueur de saxophone" class="img-fluid rounded shadow" >
+                    </div>
+                </div>
+                <hr class="my-5 mx-auto border-2 border-dark" >     
+            <div class="row gy-2 align-items-center">
+                    <div class="col-12 col-md-6 text-center">
+                        <img src="../img/press-birthday.jpg" alt="photo d'anniversaire" class="img-fluid rounded shadow" >
+                    </div>
+                   
+                    <div class="col-12 col-md-5">
+                        <h2 class="mb-2" >Le Chambord Fête son Centenaire avec des Événements Exceptionnels</h2>
+                        <h3 class="mb-4 text-muted ">Décembre 2024</h3>
+                        <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                        <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                        </a>
+                    </div>
+            </div>
+                    <hr class="my-5 mx-auto border-2 border-dark" >  
+            <div class="row gy-2 align-items-center">
+                        <div class="col-12 col-md-5">
+                            <h2 class="mb-2" >Printemps au Jardin : Lancement des Brunchs en Terrasse au Chambord</h2>
+                            <h3 class="mb-4 text-muted ">Avril 2024</h3>
+                            <a href="../pdf/communique-presse.pdf" download class="btn btn-dark button" target="_blank">
+                            <i class="fas fa-file-pdf me-2"></i> Télécharger le communiqué
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <img src="../img/press-brunch.jpg" alt="equipe de reception de l'hôtel" class="img-fluid rounded shadow" >
+                        </div>
+            </div>         
+    </div>
+        
+ </section>   
+<footer class="border-top">
+    <div class="container py-5">
+        <div class="row gy-4">
+            <!-- Logo et présentation de l'hôtel -->
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Le Chambord</h5>
+                <p class="small">
+                    Découvrez un lieu unique, alliant luxe et sérénité. Situé au cœur d’un cadre exceptionnel, 
+                    Le Chambord est l’endroit parfait pour une escapade mémorable.
+                </p>
+                <img src="../img/logo-chambord-noir.png" alt="Logo Le Chambord" class="img-fluid" style="max-width: 150px;">
+            </div>
+
+             <!-- Liens utiles -->
+             <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Liens utiles</h5>
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center justify-content-md-between">
+                    <div class=" navbar " id="navbarNav">
+                        <ul class="navbar-nav flex-column me-auto text-center text-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Mentions Légales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Conditions Générales De Ventes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Plan du Site</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../reservation.html#reservation">Rechercher Votre Réservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Réseaux sociaux et contact -->
+            <div class="col-12 col-md-4 text-center">
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center">
+                    <div class=" navbar" id="navbarNavSecond">
+                        <ul class="navbar-nav flex-column m-auto text-center">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link" href="../hotel/acces.html"><i class="fas fa-map-marker-alt"></i> Acces à l'hôtel</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="mailto:" class="nav-link"><i class="fas fa-envelope me-2"></i>Partager par e-mail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:window.print()" class="nav-link">
+                                    <i class="fas fa-print me-2"></i> Imprimer la page
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h6 class="fw-bold mt-4">Suivez-nous</h6>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer bottom -->
+        <div class="border-top pt-3 mt-4 text-center">
+            <p class="small mb-0">© 2025 Le Chambord. Tous droits réservés.</p>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>  
+    <script src="../js/app.js"></script>    
+</footer>
+    
+</body>
+</html>

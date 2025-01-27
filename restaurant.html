@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hôtel de luxe à Paris | Le Chambord| Le Restaurant</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon-hotel.png">
+        <!-- cdn bodoni font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        <!-- cdn monserrat font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- cdn roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="css/style.css">
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+    
+    </head>
+<body>
+    <header>
+        <!-- scroll top -->
+        <button id="scrolltop" class="btn btn-dark position-fixed"><i class="fas fa-arrow-up"></i></button>
+        <!-- First navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo-hotel.png" alt="Logo Hôtel Chambord">
+        </a>
+        <!-- Toggler pour le menu burger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar" aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="firstNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="reservation.html#reservation">Votre Réservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hotel/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/language_484633.png" alt="Langue" width="20" height="20" class="d-inline-block align-text-top"> Français
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="#">Anglais</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline d-flex my-2 my-lg-0">
+                <input class="form-control me-2" type="search" placeholder="Que recherchez-vous ?" aria-label="Search">
+                <button class="btn btn-dark button py-1 px-2" type="submit">Chercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Second navbar -->
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <!-- Toggler pour le menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNavbar" aria-controls="secondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="secondNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="hotel/about.html">L'Hôtel</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="chambres.html">Les Chambres</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="restaurant.html">Le Restaurant</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="spa.html">Le Spa</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="hotel/event.html">Evènements</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="actualités.html">Actualités</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plus
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="hotel/contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="avis.html">Avis</a></li>
+                            <li><a class="dropdown-item" href="hotel/contact.html#newsletter">News Letter</a></li>
+                            <li><a class="dropdown-item" href="hotel/acces.html">Accès</a></li>
+                            <li><a class="dropdown-item" href="hotel/press.html">Presse</a></li>
+                          </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+</header>
+<!-- image d'entete -->
+<section class="position-relative mb-4">
+    <!-- Image pleine largeur -->
+    <img src="img/32366.jpg" alt="Une suite de l'hôtel" class="img-fluid w-100 entete">
+
+    <!-- Titre centré avec fond opaque -->
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 py-2 titre-entete" >
+        <h1 class="fw-bold mb-2">RESTAURANT DE L'HOTEL LE CHAMBORD</h1>
+    </div>
+</section>
+<main class="py-5">
+    
+    <div class="container">
+        
+        <!-- Expérience Culinaire -->
+        <section class="mb-5">
+
+            <div class="row align-items-center" id="restaurant">
+                <div class="col-md-6">
+                    <h2 class=" mb-4">Un Voyage Culinaire au Cœur de Paris</h2>
+                    <p>Le restaurant de l'hôtel Le Chambord vous invite à une expérience gastronomique exceptionnelle, où la tradition française rencontre une créativité audacieuse. </p><p> Situé dans un cadre élégant et intime, notre restaurant célèbre l'art de la table à travers des saveurs raffinées et des produits de saison soigneusement sélectionnés.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/1508.jpg" alt="Ambiance du restaurant" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </section>
+        <hr class="my-5 mx-auto border-2 border-dark">
+
+        <!-- Ambiances du Restaurant -->
+        <section class="mb-5">
+            <h2 class="text-center mb-4">L’Expérience Culinaire</h2>
+            <p class="text-center">Notre chef élabore des menus qui évoluent avec les saisons, mettant en valeur les meilleurs ingrédients locaux avec une présentation artistique.</p>
+            <img src="img/338259.jpg" alt="Ambiance du restaurant" class="img-fluid rounded shadow d-block mx-auto w-50">
+            <hr class="my-5 mx-auto border-2 border-dark">
+            <div class="row text-center">
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <h3>La Salle Principale</h3>
+                    <p>Un espace sophistiqué avec une décoration intemporelle et une vue imprenable sur les jardins de l’hôtel.</p>
+                    <img src="img/1064.jpg" alt="Ambiance du restaurant" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <h3>Le Salon Privé</h3>
+                    <p>Parfait pour des dîners intimes ou des événements exclusifs.</p>
+                    <img src="img/813.jpg" alt="Ambiance du restaurant" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <h3>La Terrasse</h3>
+                    <p>Une option en plein air, idéale pour profiter des beaux jours dans un cadre verdoyant.</p>
+                    <img src="img/terrasse.jpg" alt="Ambiance du restaurant" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </section>
+        <hr class="my-5 mx-auto border-2 border-dark">
+        <!-- Menus et Carte des Vins -->
+        <section>
+            <h2 class="text-center mb-4">Cartes et Menus</h2>
+            <div class="row">
+                <!-- Menu Dégustation -->
+                <div class="col-md-6 d-flex">
+                    <div class="card w-100">
+                        <img src="img/beef.jpg" class="card-img-top" alt="Image Menu Dégustation">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="fw-bold">Menu Dégustation</h3>
+                            <ul>
+                                <li><strong>Entrée :</strong> Tartare de Saint-Jacques, émulsion d’agrumes.</li>
+                                <li><strong>Plat :</strong> Filet de bœuf maturé, purée de céleri truffée.</li>
+                                <li><strong>Dessert :</strong> Soufflé au Grand Marnier, glace vanille maison.</li>
+                            </ul>
+                            <p class="mt-auto"><strong>Prix :</strong> 110 € par personne</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Menu à la Carte -->
+                <div class="col-md-6 d-flex">
+                    <div class="card w-100">
+                        <img src="img/27009.jpg" class="card-img-top" alt="Image Menu à la Carte">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="fw-bold">Menu à la Carte</h3>
+                            <ul>
+                                <li><strong>Entrées :</strong>
+                                    <ul>
+                                        <li>Velouté de potimarron aux éclats de noisettes (18 €).</li>
+                                        <li>Foie gras de canard, chutney de figues et pain brioché (28 €).</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Plats :</strong>
+                                    <ul>
+                                        <li>Filet de bar rôti, risotto de petits pois (38 €).</li>
+                                        <li>Carré d’agneau en croûte d’herbes, légumes glacés (42 €).</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Desserts :</strong>
+                                    <ul>
+                                        <li>Tartelette au chocolat et caramel beurre salé (16 €).</li>
+                                        <li>Assiette de fromages affinés (19 €).</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p class="mt-auto"><strong>Prix :</strong> À la carte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row"></div>
+                    <div class="col-md-12 d-flex justify-content-center py-4">
+                        <a href="pdf/menu-restaurant.pdf" download class="btn btn-dark button" target="_blank">
+                        <i class="fas fa-file-pdf me-2"></i> Télécharger nos Menus
+                        </a>
+                    </div>
+            </div>
+        </section>
+    </div>
+    
+
+   
+<!-- Carte des Vins -->
+<section class="mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Carte des Vins</h2>
+        <p class="text-center mb-4">Notre sommelier a sélectionné des crus d’exception pour accompagner chaque plat :</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li><strong>Vins Blancs :</strong> Chablis 1er Cru, Meursault.</li>
+                            <li><strong>Vins Rouges :</strong> Saint-Émilion Grand Cru, Châteauneuf-du-Pape.</li>
+                            <li><strong>Champagnes :</strong> Dom Pérignon, Ruinart Blanc de Blancs.</li>
+                        </ul>
+                    </div>
+                    <img src="img/132.jpg" class="card-img-bottom img-fluid rounded" alt="Image Carte des Vins">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<hr class="my-5 mx-auto border-2 border-dark">
+
+
+<!-- Informations Pratiques -->
+<section class="mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Informations Pratiques</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p><strong>Horaires d’ouverture :</strong></p>
+                <ul>
+                    <li>Déjeuner : 12h00 à 14h30.</li>
+                    <li>Dîner : 19h00 à 22h30.</li>
+                </ul>
+                <p><strong>Réservations :</strong></p>
+                <ul>
+                    <li>Téléphone : +33 (0)1 00 00 00 00</li>
+                    <li>Email : restaurant@lechambord.rien</li>
+                </ul>
+                <p><strong>Code vestimentaire :</strong> Élégant décontracté.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="img/restaurant-eiffel.jpg" alt="Table de restaurant" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+<footer class="border-top">
+    <div class="container py-5">
+        <div class="row gy-4">
+            <!-- Logo et présentation de l'hôtel -->
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Le Chambord</h5>
+                <p class="small">
+                    Découvrez un lieu unique, alliant luxe et sérénité. Situé au cœur d’un cadre exceptionnel, 
+                    Le Chambord est l’endroit parfait pour une escapade mémorable.
+                </p>
+                <img src="img/logo-chambord-noir.png" alt="Logo Le Chambord" class="img-fluid" style="max-width: 150px;">
+            </div>
+
+             <!-- Liens utiles -->
+             <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Liens utiles</h5>
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center justify-content-md-between">
+                    <div class=" navbar " id="navbarNav">
+                        <ul class="navbar-nav flex-column me-auto text-center text-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Mentions Légales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Conditions Générales De Ventes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Plan du Site</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="reservation.html#reservation">Rechercher Votre Réservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Réseaux sociaux et contact -->
+            <div class="col-12 col-md-4 text-center">
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center">
+                    <div class=" navbar" id="navbarNavSecond">
+                        <ul class="navbar-nav flex-column m-auto text-center">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link" href="hotel/acces.html"><i class="fas fa-map-marker-alt"></i> Acces à l'hôtel</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="mailto:" class="nav-link"><i class="fas fa-envelope me-2"></i>Partager par e-mail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:window.print()" class="nav-link">
+                                    <i class="fas fa-print me-2"></i> Imprimer la page
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h6 class="fw-bold mt-4">Suivez-nous</h6>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer bottom -->
+        <div class="border-top pt-3 mt-4 text-center">
+            <p class="small mb-0">© 2025 Le Chambord. Tous droits réservés.</p>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>  
+    <script src="js/app.js"></script>    
+</footer>
+    
+</body>
+</html>

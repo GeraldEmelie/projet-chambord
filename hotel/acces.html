@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hôtel de luxe à Paris | Le Chambord | Accès</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon-hotel.png">
+        <!-- cdn bodoni font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        <!-- cdn monserrat font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- cdn roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="../css/style.css">
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+    
+    </head>
+<body>
+<header>
+        <!-- scroll top -->
+        <button id="scrolltop" class="btn btn-dark position-fixed"><i class="fas fa-arrow-up"></i></button>
+        <!-- First navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo-hotel.png" alt="Logo Hôtel Chambord" >
+            </a>
+            <!-- Toggler pour le menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar" aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-end" id="firstNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../reservation.html#reservation">Votre Réservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../hotel/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../img/language_484633.png" alt="Langue" width="20" height="20" class="d-inline-block align-text-top"> Français
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="#">Anglais</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline d-flex my-2 my-lg-0">
+                <input class="form-control me-2" type="search" placeholder="Que recherchez-vous ?" aria-label="Search">
+                <button class="btn btn-dark button py-1 px-2" type="submit">Chercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Second navbar -->
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <!-- Toggler pour le menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNavbar" aria-controls="secondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="secondNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/about.html">L'Hôtel</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../chambres.html">Les Chambres</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../restaurant.html">Le Restaurant</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../spa.html">Le Spa</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/event.html">Evènements</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../actualités.html">Actualités</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plus
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                            <li><a class="dropdown-item" href="../hotel/contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="../avis.html">Avis</a></li>
+                            <li><a class="dropdown-item" href="../hotel/contact.html#newsletter">Newsletter</a></li>
+                            <li><a class="dropdown-item" href="../hotel/acces.html">Accès</a></li>
+                            <li><a class="dropdown-item" href="../hotel/press.html">Presse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+</header>
+    <!-- adresse coordonnées -->
+<section class="py-5 bg-white">
+    
+        <div class="container">
+            <h1 class="mb-4 text-center">Accès à l’Hôtel Le Chambord</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex align-items-center ">
+                    <div class="mx-auto">
+                        <h5 class="text-muted mb-2 " >Adresse</h5>
+                        <p class="mb-3">Hôtel Le Chambord<br>123 Rue de l’Élégance<br>75000 Paris, France</p>
+                    
+                        <h5 class="text-muted mb-2" >Contact</h5>
+                        <p class="mb-3">Téléphone : +33 (0)1 00 00 00 00<br>Email : contact@hotelchambord.rien</p>
+                    
+                        <h5 class="text-muted mb-2">Heures d’arrivée et de départ</h5>
+                        <p class="mb-0">Arrivée : 15h00<br>Départ : 12h00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <img src="../img/hotelM.jpg" alt="Vue de l'hôtel la nuit" class="img-fluid rounded shadow" >
+                </div>
+            </div>
+            
+        </div>
+</section>
+<!-- carte interactive -->
+<section>
+     <!-- integration plan google map -->
+     <hr class="my-5 mx-auto border-2 border-dark">
+            <div class="container mt-5">
+                <div class="row">
+                    <h2 class="mb-4">Carte Interactive</h2>
+                    <p class="text-justify lead">Planifiez votre itinéraire</p>
+                    <p>Utilisez notre carte interactive ci-dessous pour trouver le meilleur chemin jusqu’à l’Hôtel Chambord. Cliquez sur le marqueur "Itinéraires" pour obtenir des directions depuis votre emplacement.</p>
+                    <div class="col-12 mt-4">
+                        <iframe class="iframe-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.781639785539!2d2.2985875754661818!3d48.881439099085576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f95f13a660d%3A0xcec672643001bbc8!2s1%20Avenue%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1736523389303!5m2!1sfr!2sfr" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>    
+</section>
+<!-- accès -->
+<section class="py-5 bg-white">
+    <hr class="my-5 mx-auto border-2 border-dark">
+    <div class="container">
+        <div class="row gy-4 align-items-stretch">
+            <!-- Colonne 1 : Accès en Transport en Commun -->
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <h2>Accès en Transport en Commun</h2>
+                <div class="flex-grow-1">
+                    <h5 class="text-muted mb-2">Metro :</h5>
+                    <p class="mb-3">Station Étoile Royale (ligne 1), à 3 minutes à pied.<br>Station Luxembourg-Élysée (ligne 14), à 7 minutes à pied.</p>
+        
+                    <h5 class="text-muted mb-2">Bus :</h5>
+                    <p class="mb-3">Lignes 72, 84 avec un arrêt à Place Élégance, juste devant l’hôtel.</p>
+        
+                    <h5 class="text-muted mb-2">RER :</h5>
+                    <p class="mb-0">RER A, arrêt à Champs Élysées-Clichy, à 10 minutes à pied.</p>
+                </div>
+                <img src="../img/metro-parisien.jpg" alt="Entrée du métro parisien" class="img-fluid rounded shadow mt-3">
+            </div>
+        
+            <!-- Colonne 2 : Accès en Voiture -->
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <h2 class="mb-5">Accès en Voiture</h2>
+                <div class="flex-grow-1">
+                    <h5 class="text-muted mb-2">Adresse GPS :</h5>
+                    <p class="mb-3">123 Rue de l’Élégance, 75000 Paris<br>Depuis le périphérique, prenez la sortie <b>Porte Maillot</b> et suivez les indications pour <b>Centre-Ville.</b></p>
+        
+                    <h5 class="text-muted mb-2">Parking :</h5>
+                    <p>Notre service voiturier est disponible 24/7 (tarif : 30€/jour).</p>
+                </div>
+                <img src="../img/voiturier.jpg" alt="Accueil d'un voiturier de l'hôtel" class="img-fluid rounded shadow mt-3">
+            </div>
+        
+            <!-- Colonne 3 : Accès Depuis les Aéroports -->
+            <div class="col-12 col-md-4 d-flex flex-column">
+                <h2>Accès Depuis les Aéroports</h2>
+                <div class="flex-grow-1">
+                    <h5 class="text-muted mb-2">Aéroport Charles de Gaulle (CDG) :</h5>
+                    <p class="mb-3">Taxi : 45 minutes (environ 60€).<br>RER B : 35 minutes jusqu’à la station Luxembourg-Élysée, puis 5 minutes à pied.</p>
+        
+                    <h5 class="text-muted mb-2">Aéroport Orly (ORY) :</h5>
+                    <p class="mb-3">Taxi : 35 minutes (environ 50€).<br>Orlyval + RER B : 40 minutes jusqu’à la station Luxembourg-Élysée.</p>
+                </div>
+                <img src="../img/airport.jpg" alt="Aéroport" class="img-fluid rounded shadow mt-3">
+            </div>
+        </div>
+    </div>
+             
+</section>
+<footer class="border-top">
+    <div class="container py-5">
+        <div class="row gy-4">
+            <!-- Logo et présentation de l'hôtel -->
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Le Chambord</h5>
+                <p class="small">
+                    Découvrez un lieu unique, alliant luxe et sérénité. Situé au cœur d’un cadre exceptionnel, 
+                    Le Chambord est l’endroit parfait pour une escapade mémorable.
+                </p>
+                <img src="../img/logo-chambord-noir.png" alt="Logo Le Chambord" class="img-fluid" style="max-width: 150px;">
+            </div>
+
+             <!-- Liens utiles -->
+             <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Liens utiles</h5>
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center justify-content-md-between">
+                    <div class=" navbar " id="navbarNav">
+                        <ul class="navbar-nav flex-column me-auto text-center text-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Mentions Légales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Conditions Générales De Ventes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Plan du Site</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../reservation.html#reservation">Rechercher Votre Réservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Réseaux sociaux et contact -->
+            <div class="col-12 col-md-4 text-center">
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center">
+                    <div class=" navbar" id="navbarNavSecond">
+                        <ul class="navbar-nav flex-column m-auto text-center">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link" href="../hotel/acces.html"><i class="fas fa-map-marker-alt"></i> Acces à l'hôtel</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="mailto:" class="nav-link"><i class="fas fa-envelope me-2"></i>Partager par e-mail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:window.print()" class="nav-link">
+                                    <i class="fas fa-print me-2"></i> Imprimer la page
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h6 class="fw-bold mt-4">Suivez-nous</h6>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer bottom -->
+        <div class="border-top pt-3 mt-4 text-center">
+            <p class="small mb-0">© 2025 Le Chambord. Tous droits réservés.</p>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>  
+    <script src="../js/app.js"></script>    
+</footer>
+
+
+    
+</body>
+</html>

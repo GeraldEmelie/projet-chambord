@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hôtel de luxe à Paris | Le Chambord | Recrutement</title>
+        <link rel="icon" type="image/x-icon" href="../img/favicon-hotel.png">
+        <!-- cdn bodoni font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+        <!-- cdn monserrat font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- cdn roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="../css/style.css">
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+    
+    </head>
+<body>
+    <header>
+        <!-- scroll top -->
+        <button id="scrolltop" class="btn btn-dark position-fixed"><i class="fas fa-arrow-up"></i></button>
+        <!-- First navbar -->
+<nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo-hotel.png" alt="Logo Hôtel Chambord" >
+        </a>
+        <!-- Toggler pour le menu burger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar" aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="firstNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../reservation.html#reservation">Votre Réservation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../hotel/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../img/language_484633.png" alt="Langue" width="20" height="20" class="d-inline-block align-text-top"> Français
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" href="#">Anglais</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="form-inline d-flex my-2 my-lg-0">
+                <input class="form-control me-2" type="search" placeholder="Que recherchez-vous ?" aria-label="Search">
+                <button class="btn btn-dark button py-1 px-2" type="submit">Chercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Second navbar -->
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <!-- Toggler pour le menu burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondNavbar" aria-controls="secondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="secondNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/about.html">L'Hôtel</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../chambres.html">Les Chambres</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../restaurant.html">Le Restaurant</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../spa.html">Le Spa</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../hotel/event.html">Evènements</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="../actualités.html">Actualités</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plus
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                            <li><a class="dropdown-item" href="../hotel/contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="../avis.html">Avis</a></li>
+                            <li><a class="dropdown-item" href="../hotel/contact.html#newsletter">Newsletter</a></li>
+                            <li><a class="dropdown-item" href="../hotel/acces.html">Accès</a></li>
+                            <li><a class="dropdown-item" href="../hotel/press.html">Presse</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+</header>
+ <section class="py-5 bg-white">
+    
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-12 ">
+                <h1 class="text-center mb-5">Rejoignez l’Équipe du Le Chambord</h1>
+                <img src="../img/team.jpg" alt="equipe de l'hotel" class="img-fluid rounded shadow mb-5 d-block mx-auto">
+                <h2 class="text-center mb-4"> Travailler pour l'hôtel Le Chambord : Une Expérience Unique</h2>
+                <p> Le Chambord, hôtel emblématique au cœur de Paris, est bien plus qu’un lieu d’exception. C’est une équipe passionnée, engagée dans l’excellence et dédiée à offrir une expérience inoubliable à nos clients. Si vous partagez notre vision et souhaitez évoluer dans un cadre prestigieux, rejoignez-nous !</p>
+                <h3 class="text-center mb-4">Nos Valeurs</h3>
+                <ul>
+                    <li><p>Excellence : Nous visons toujours à surpasser les attentes de nos clients.</p></li>
+                    <li><p>Innovation : Créer des expériences uniques grâce à des idées nouvelles.</p></li>
+                    <li><p>Collaboration : Une équipe unie et solidaire pour atteindre nos objectifs.</p></li>
+                    <li><p>Écoresponsabilité : Un engagement constant pour un luxe durable.</p></li>
+                </ul>
+
+            <hr class="my-5 mx-auto border-2 border-dark">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-12 col-md-4 ">
+                    <img src="../img/commis.jpg" alt="commis de cuisine" class="img-fluid rounded shadow" >
+            </div>
+            <div class="col-12 col-md-4">
+                    <img src="../img/femme-de-chambre.jpg" alt="femme de chambre" class="img-fluid rounded shadow" >
+            </div>
+            <div class="col-12 col-md-4">
+            <img src="../img/receptioniste.jpg" alt="receptioniste" class="img-fluid rounded shadow" >
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- offres d'emploi -->
+  <section>
+    <hr class="my-5 mx-auto border-2 border-dark">
+    <div class="container">
+        <h2 class="text-center"> Postes Actuellement Disponibles</h2>
+    </div>
+  </section>
+ <section>
+    <div class="container">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Réceptionniste (H/F)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> <p> Contrat: CDI, temps plein. <br>
+                    Missions principales:
+                     <br> - Accueillir et accompagner les clients avec professionnalisme.
+                     <br> - Gérer les réservations et le planning.
+                     <br> - Assurer un service personnalisé pour garantir la satisfaction des clients. <br>
+                    Profil recherché:
+                    <br>  - Expérience en hôtellerie de luxe souhaitée.
+                    <br>  - Maîtrise du français et de l’anglais (une troisième langue est un plus).</p>
+                    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Chef de Rang (H/F)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Contrat : CDI, temps plein. <br>
+                    Missions principales:
+                     <br> - Assurer le service en salle en respectant les standards du restaurant.
+                     <br> - Conseiller les clients sur le menu et les vins.
+                     <br> - Participer à la mise en place et à la coordination avec l’équipe.
+                    Profil recherché** :
+                     <br> - Expérience confirmée en restauration gastronomique.
+                     <br> - Sens du détail et passion pour la gastronomie.
+                    
+                </p></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Spa Thérapeute (H/F)
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><p>Contrat : CDD, 6 mois renouvelable. <br>
+                    Missions principales:
+                     <br> - Réaliser des soins et massages selon les protocoles définis.
+                     <br> - Conseiller les clients sur les soins adaptés à leurs besoins.
+                     <br> - Participer à la gestion quotidienne du spa.
+                    Profil recherché:
+                     <br> - Diplôme en esthétique ou massage requis.
+                     <br> - Une expérience en spa de luxe est un atout.
+                    
+
+                </p>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+ </section>
+ <!-- formulaire de depot de cv -->
+  <section>
+    <div class="container">
+        <h2 class="text-center mb-4">Comment Postuler ?</h2>
+        <h5 class="text-center"> Envoyez votre candidature (CV et lettre de motivation) en utilisant le formulaire ci-contre :  </h5>
+    </div>
+  </section>
+ <section class="py-4 bg-white">
+    <div class="container">
+        <h2 class="text-center mb-4">Déposez Votre CV</h2>
+        <form action="../submit-cv" enctype="multipart/form-data" class="row g-3">   
+            <!-- Informations personnelles -->
+            <div class="col-md-6">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="col-md-6">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prénom" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" required>
+            </div>
+            <div class="col-md-6">
+                <label for="telephone" class="form-label">Téléphone</label>
+                <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Votre numéro de téléphone" required>
+            </div>
+
+            <!-- Poste souhaité -->
+            <div class="col-md-12">
+                <label for="poste" class="form-label">Poste souhaité</label>
+                <select id="poste" name="poste" class="form-select" required>
+                    <option value="" disabled selected>Choisissez un poste</option>
+                    <option value="Receptionniste">Receptionniste</option>
+                    <option value="Chef de rang">Chef de rang</option>
+                    <option value="Spa Thérapeute ">Spa Thérapeute </option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+
+            <!-- Télécharger CV -->
+            <div class="col-md-12">
+                <label for="cv" class="form-label">Téléchargez votre CV</label>
+                <input type="file" class="form-control" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                <small class="text-muted">Formats acceptés : PDF, DOC, DOCX. Taille max : 2MB.</small>
+            </div>
+
+            <!-- Message optionnel -->
+            <div class="col-md-12">
+                <label for="message" class="form-label">Message (optionnel)</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Ajoutez un message ou des détails supplémentaires (optionnel)"></textarea>
+            </div>
+
+            <!-- Bouton de soumission -->
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-dark btn-lg">Envoyer</button>
+            </div>
+        </form>
+    </div>
+</section>
+  
+<footer class="border-top">
+    <div class="container py-5">
+        <div class="row gy-4">
+            <!-- Logo et présentation de l'hôtel -->
+            <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Le Chambord</h5>
+                <p class="small">
+                    Découvrez un lieu unique, alliant luxe et sérénité. Situé au cœur d’un cadre exceptionnel, 
+                    Le Chambord est l’endroit parfait pour une escapade mémorable.
+                </p>
+                <img src="../img/logo-chambord-noir.png" alt="Logo Le Chambord" class="img-fluid" style="max-width: 150px;">
+            </div>
+
+             <!-- Liens utiles -->
+             <div class="col-12 col-md-4 text-center text-md-start">
+                <h5 class="fw-bold">Liens utiles</h5>
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center justify-content-md-between">
+                    <div class=" navbar " id="navbarNav">
+                        <ul class="navbar-nav flex-column me-auto text-center text-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Mentions Légales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Conditions Générales De Ventes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="#">Plan du Site</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="../reservation.html#reservation">Rechercher Votre Réservation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Réseaux sociaux et contact -->
+            <div class="col-12 col-md-4 text-center">
+                <nav class="navbar navbar-expand-md navbar-light bg-white justify-content-center">
+                    <div class=" navbar" id="navbarNavSecond">
+                        <ul class="navbar-nav flex-column m-auto text-center">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link" href="../hotel/acces.html"><i class="fas fa-map-marker-alt"></i> Acces à l'hôtel</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="mailto:" class="nav-link"><i class="fas fa-envelope me-2"></i>Partager par e-mail</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:window.print()" class="nav-link">
+                                    <i class="fas fa-print me-2"></i> Imprimer la page
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h6 class="fw-bold mt-4">Suivez-nous</h6>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer bottom -->
+        <div class="border-top pt-3 mt-4 text-center">
+            <p class="small mb-0">© 2025 Le Chambord. Tous droits réservés.</p>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>  
+    <script src="../js/app.js"></script>    
+</footer>
+    
+</body>
+</html>

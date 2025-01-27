@@ -1,0 +1,131 @@
+
+p{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+a{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button{
+  font-family: "Bodoni Moda", serif !important;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+h2{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.list-inline-item a i {
+  color:#6b6b6b;
+  transition: color 0.3s ease;
+}
+
+.list-inline-item a:hover i {
+  color: #000000; 
+}
+
+.entete{
+  height: 70vh; 
+  object-fit: cover;
+
+}
+
+.titre-entete{
+  background-color: rgba(0, 0, 0, 0.295); 
+  border-radius: 1px;
+}
+
+hr{
+  width: 50%;
+}
+
+.star-rating i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.star-rating i.selected {
+  color: gold;
+}
+.fa-star {
+ 
+  cursor: pointer;
+}
+.fa-star:hover {
+  color: orange;
+}
+
+#scrolltop {
+  width: 50px; /* Largeur de la flèche */
+  height: 50px; /* Hauteur de la flèche */
+  border-radius: 50%; /* Rond */
+  display:none;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Position fixe */
+  bottom: 20px; /* Espacement par rapport au bas de l'écran */
+  right: 20px; /* Espacement par rapport au bord droit */
+  z-index: 1000; /* Au-dessus des autres éléments */
+  background-color: #343a40; /* Couleur de fond */
+  color: white; /* Couleur de l'icône */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet visuel */
+  transition: all 0.3s ease-in-out; /* Transition pour des animations fluides */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.iframe-maps {
+  width: 100% ;
+}
+iframe { 
+  border: none; 
+}
+
+.card-footer {
+  border-top: none;
+}
+
+
+
